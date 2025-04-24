@@ -11,7 +11,7 @@ public class ToDoController {
 	public String toDo() {
 		
 		
-				return "todoView";
+				return "todoView２";
 	}
 	
 }

@@ -26,5 +26,4 @@ public class ToDo {
 	
 	@Column(name = "status")
 	private String status;
-
 }

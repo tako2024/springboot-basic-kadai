@@ -7,7 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import com.example.springkadaitodo.entity.ToDo;
-import com.example.springkadaitodo.repository.ToDoService;
+import com.example.springkadaitodo.service.ToDoService;
 
 
 @Controller
@@ -30,5 +30,4 @@ public class ToDoController {
 		
 		return "todoView";
 	}
-	
 }

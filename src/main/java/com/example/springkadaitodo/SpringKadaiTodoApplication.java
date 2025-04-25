@@ -9,5 +9,4 @@ public class SpringKadaiTodoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringKadaiTodoApplication.class, args);
 	}
-
 }

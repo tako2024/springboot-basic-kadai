@@ -12,7 +12,7 @@ public class ContactForm {
 	private String name;
 
 	//メールアドレス
-	@NotBlank(message = "メールアドレスの入力形式が正しくありません。")
+	@NotBlank(message = "メールアドレスを入力してください。")
 	@Email(message = "メールアドレスの入力形式が正しくありません。")
 	private String email;
 
